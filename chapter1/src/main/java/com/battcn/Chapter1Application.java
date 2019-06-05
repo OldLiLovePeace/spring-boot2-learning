@@ -34,7 +34,7 @@ public class Chapter1Application {
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         // 目的是
         return args -> {
-            System.out.println("来看看 SpringBoot 默认为我们提供的 Bean：");
+            System.out.println("来看看 SpringBoot 默认为我们提供的 Bean：11");
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
             Arrays.stream(beanNames).forEach(System.out::println);
