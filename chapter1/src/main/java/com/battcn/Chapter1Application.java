@@ -35,7 +35,7 @@ public class Chapter1Application {
         // 目的是
         return args -> {
 
-            System.out.println("来看看 SpringBoot 默认为我们提供的 Bean：11");
+            System.out.println("来看看 SpringBoot 默认为我们提供的 Bean：");
 
             String[] beanNames = ctx.getBeanDefinitionNames();
             Arrays.sort(beanNames);
